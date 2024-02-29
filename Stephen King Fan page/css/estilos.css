@@ -1,0 +1,136 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Noto Serif TC', serif;
+}
+
+/* contenedores ---------------------------- */
+
+header {
+    padding: 50px 0 0 0;
+    text-align: center;
+}
+
+.hero {}
+
+section {
+    margin: 50px 0;
+}
+
+#bio {
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #DADBD6;
+}
+
+#bio p:first-of-type {
+    color: black;
+}
+
+#bio p:last-of-type {
+    background-color: rgba(240, 69, 77, .5);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 15px;
+}
+
+#bio ul {
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+#sale img {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+footer {
+    background: #C5C5C5 url(../img/02.jpg) no-repeat right top fixed;
+    padding-top: 300px;
+    padding-bottom: 50px;
+    color: white;
+    text-align: center;
+}
+
+/* menu */
+
+nav {
+    background-color: rgb(240, 69, 77);
+}
+
+nav ul {
+    list-style-type: none;
+    font-family: 'DM Serif Display', serif;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+    nav ul li {
+        border-right: 2px solid black;
+    }
+}
+
+nav ul li:last-child {
+    border-right: 0;
+}
+
+nav ul li a.btn:hover {
+    color: white;
+}
+
+nav .btn {
+    font-size: 25px;
+}
+
+@media screen and (min-width: 992px) {
+    #bio{
+        background: #DADBD6 url(../img/01.jpg) no-repeat right fixed;
+    }
+}
+
+/* fuentes */
+
+h1 {
+    text-transform: uppercase;
+    font-family: 'DM Serif Display', serif;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-family: 'DM Serif Display', serif;
+    color: rgb(240, 69, 77);
+}
+
+p {
+    margin-top: 10px;
+}
+
+/* tabla */
+
+.table {
+    color: white;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+/* form */
+
+input[type=email] {
+    padding: 4px;
+    border: 1px solid rgb(240, 69, 77);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
